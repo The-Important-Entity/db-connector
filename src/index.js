@@ -1,8 +1,8 @@
 'use strict';
 const {Client} = require("pg");
-const config = require("./config");
+
 class dbConnector {
-    constructor() {
+    constructor(config) {
         this.client = new Client({
             "host": config.DB_HOST,
             "user": config.DB_USER,
