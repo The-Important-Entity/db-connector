@@ -10,7 +10,7 @@ const run_tests = async function(){
     await integration_tests(dbconn, tester);
 
 
-
+    tester.printResults();
     dbconn.close();
 }
 
