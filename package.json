@@ -1,0 +1,25 @@
+{
+  "name": "db-connector",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/The-Important-Entity/db-connector.git"
+  },
+  "author": "Joseph Scalera",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/The-Important-Entity/db-connector/issues"
+  },
+  "homepage": "https://github.com/The-Important-Entity/db-connector#readme",
+  "devDependencies": {
+    "dotenv": "^10.0.0"
+  },
+  "dependencies": {
+    "pg": "^8.7.1"
+  }
+}
